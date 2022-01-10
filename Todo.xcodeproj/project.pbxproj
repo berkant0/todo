@@ -12,6 +12,7 @@
 		C95270FA278CB02C009E1612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95270F9278CB02C009E1612 /* Preview Assets.xcassets */; };
 		C9527177278CB0CB009E1612 /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952716C278CB0CB009E1612 /* ColorExtention.swift */; };
 		C952717D278CB1E3009E1612 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952717C278CB1E3009E1612 /* ItemModel.swift */; };
+		C9527180278CB2F8009E1612 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952717F278CB2F8009E1612 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C95270F9278CB02C009E1612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C952716C278CB0CB009E1612 /* ColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
 		C952717C278CB1E3009E1612 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		C952717F278CB2F8009E1612 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				C95270F2278CB02B009E1612 /* TodoApp.swift */,
 				C952717B278CB1E3009E1612 /* Models */,
+				C952717E278CB2F8009E1612 /* ViewModels */,
 				C9527178278CB0E1009E1612 /* Extention */,
 				C95270F6278CB02C009E1612 /* Assets.xcassets */,
 				C95270F8278CB02C009E1612 /* Preview Content */,
@@ -84,6 +87,14 @@
 				C952717C278CB1E3009E1612 /* ItemModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C952717E278CB2F8009E1612 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C952717F278CB2F8009E1612 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			files = (
 				C952717D278CB1E3009E1612 /* ItemModel.swift in Sources */,
 				C95270F3278CB02B009E1612 /* TodoApp.swift in Sources */,
+				C9527180278CB2F8009E1612 /* ListViewModel.swift in Sources */,
 				C9527177278CB0CB009E1612 /* ColorExtention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 //
-//  TodoApp.swift
-//  Todo
+//  TodoListApp.swift
+//  TodoList
 //
 //  Created by Berkant on 10.01.2022.
 //
@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct TodoApp: App {
+    
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                //todo add list view
+                ListView()
             }
             .navigationViewStyle(StackNavigationViewStyle())
+            .environmentObject(listViewModel)
         }
     }
 }

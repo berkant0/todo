@@ -13,6 +13,10 @@
 		C9527177278CB0CB009E1612 /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952716C278CB0CB009E1612 /* ColorExtention.swift */; };
 		C952717D278CB1E3009E1612 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952717C278CB1E3009E1612 /* ItemModel.swift */; };
 		C9527180278CB2F8009E1612 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952717F278CB2F8009E1612 /* ListViewModel.swift */; };
+		C9527186278CB369009E1612 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9527182278CB369009E1612 /* AddView.swift */; };
+		C9527187278CB369009E1612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9527183278CB369009E1612 /* LaunchScreen.storyboard */; };
+		C9527188278CB369009E1612 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9527184278CB369009E1612 /* ListView.swift */; };
+		C9527189278CB369009E1612 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9527185278CB369009E1612 /* ListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		C952716C278CB0CB009E1612 /* ColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
 		C952717C278CB1E3009E1612 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		C952717F278CB2F8009E1612 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		C9527182278CB369009E1612 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		C9527183278CB369009E1612 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9527184278CB369009E1612 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C9527185278CB369009E1612 /* ListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 				C952717B278CB1E3009E1612 /* Models */,
 				C952717E278CB2F8009E1612 /* ViewModels */,
 				C9527178278CB0E1009E1612 /* Extention */,
+				C9527181278CB369009E1612 /* Views */,
 				C95270F6278CB02C009E1612 /* Assets.xcassets */,
 				C95270F8278CB02C009E1612 /* Preview Content */,
 			);
@@ -95,6 +104,17 @@
 				C952717F278CB2F8009E1612 /* ListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C9527181278CB369009E1612 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9527182278CB369009E1612 /* AddView.swift */,
+				C9527183278CB369009E1612 /* LaunchScreen.storyboard */,
+				C9527184278CB369009E1612 /* ListView.swift */,
+				C9527185278CB369009E1612 /* ListRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9527187278CB369009E1612 /* LaunchScreen.storyboard in Resources */,
 				C95270FA278CB02C009E1612 /* Preview Assets.xcassets in Resources */,
 				C95270F7278CB02C009E1612 /* Assets.xcassets in Resources */,
 			);
@@ -168,7 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C952717D278CB1E3009E1612 /* ItemModel.swift in Sources */,
+				C9527189278CB369009E1612 /* ListRowView.swift in Sources */,
 				C95270F3278CB02B009E1612 /* TodoApp.swift in Sources */,
+				C9527188278CB369009E1612 /* ListView.swift in Sources */,
+				C9527186278CB369009E1612 /* AddView.swift in Sources */,
 				C9527180278CB2F8009E1612 /* ListViewModel.swift in Sources */,
 				C9527177278CB0CB009E1612 /* ColorExtention.swift in Sources */,
 			);
